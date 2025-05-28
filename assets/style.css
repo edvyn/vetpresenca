@@ -1,0 +1,41 @@
+/* Hero Section Styles */
+#hero {
+    height: 60vh; /* Full-screen height */
+    position: relative;
+    overflow: hidden;
+}
+
+#hero .carousel-inner img {
+    height: 60vh; /* Ensure images cover the full height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    filter: brightness(50%); /* Darkens the image for better text readability */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.9); /* Adds a shadow effect */
+}
+#hero .text-center {
+    z-index: 10; /* Ensure text is above the carousel images */
+}
+#hero h1{
+    font-size: 2rem;
+    text-align: center;
+    max-width: 800px;
+
+}
+#heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .btn-primary {
+    background-color: #007bff; /* Customize button color */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
