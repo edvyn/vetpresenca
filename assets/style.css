@@ -114,9 +114,9 @@ body {
         width: 100px;
     }
     .btn-custom{
-        padding: 16px 16px; /* Menos padding no botão em telas pequenas */
+        padding: 16px 12px; /* Menos padding no botão em telas pequenas */
         font-weight: 600;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         text-transform: uppercase;
     }
     .hero-image{
@@ -262,6 +262,7 @@ body {
 
 .bonus{
     color: #23e0a7;
+    font-weight: bold;
 
 }
 .bonus i{
