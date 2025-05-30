@@ -179,7 +179,7 @@ body {
 }
 
 .section3{
-    background-image: url('/vetpresenca-main/assets/img/bg-s3.webp');
+    background-image: url(img/bg-s3.webp);
     background-size: 100% 100%; /* Ajusta a imagem de fundo para ocupar 100% da largura e altura */
     min-height: 900px;
     display: flex;
