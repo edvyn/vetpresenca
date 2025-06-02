@@ -528,8 +528,7 @@ body {
 
 
 #final-block2 .btn-custom{
-    padding: 12px 16px; /* Tamanho do botão */
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
 }
@@ -541,8 +540,7 @@ body {
     #final-block2 .btn-custom{
         width: 100%;
         text-align: center; /* Centraliza o texto do botão */
-        font-size: 1.2rem; /* Tamanho do botão menor em telas pequenas */
-        color: white;
+        font-size: 0.8rem; /* Tamanho do botão menor em telas pequenas */
     }
 
     .teste{
