@@ -208,7 +208,7 @@ body {
 }
 
 .section3 h2{
-    color: white;
+    color: #8af0f3;
     font-size: 1.7rem; /* Tamanho do título */
     margin-bottom: 5px; /* Espaçamento abaixo do título */
 }
@@ -541,7 +541,8 @@ body {
     #final-block2 .btn-custom{
         width: 100%;
         text-align: center; /* Centraliza o texto do botão */
-        font-size: 1.1rem; /* Tamanho do botão menor em telas pequenas */
+        font-size: 1.2rem; /* Tamanho do botão menor em telas pequenas */
+        color: white;
     }
 
     .teste{
