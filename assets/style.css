@@ -311,6 +311,10 @@ body {
     -webkit-backdrop-filter: blur(8px); /* Suporte para Safari */
     border-radius: 12px;
     transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card-item:hover {
@@ -328,6 +332,7 @@ body {
     color: #fff;
     font-size: 1rem; /* Tamanho do parágrafo do card */
     margin-bottom: 20px; /* Espaçamento abaixo do parágrafo do card */
+    text-align: center;
 }
 
 .text-como-funciona h3{
